@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="static/images/logo.png" width="120" height="120" style="margin-bottom: 10px;">
+    <img alt="logo" src="https://uviewui.com/common/logo.png" width="120" height="120" style="margin-bottom: 10px;">
 </p>
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
 <h3 align="center">多平台快速开发的UI框架</h3>
@@ -9,8 +9,6 @@
 
 uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
-[本项目在原来的组件基础上做了部分修改，如果想使用原组件请移步管网，点击上方链接]
-
 ## 特性
 
 - 兼容安卓，iOS，微信小程序，H5，QQ小程序，百度小程序，支付宝小程序，头条小程序
@@ -19,6 +17,7 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全�
 - 众多的常用页面和布局，让您专注逻辑，事半功倍
 - 详尽的文档支持，现代化的演示效果
 - 按需引入，精简打包体积
+
 
 ## 安装
 
@@ -101,33 +100,3 @@ uView文档和源码全部开源免费，如果您认为uView帮到了您的开�
  -->
 ## 版权信息
 uView遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将uView应用到您的产品中。
-
-# 优化：
-
-## 1.增加分享到朋友圈
-libs/mixin/wxShareTimeline
-this.$u.wxShareTimeline
-
-// main.js引入uView对小程序分享到朋友圈的mixin封装
-let wxShareTimeline = require('uview-ui/libs/mixin/wxShareTimeline.js');
-Vue.mixin(wxShareTimeline)
-
-## 2.swipe-action组件
- - 获取元素的宽度: this.right - this.left
- - 由于left为负，导致宽度多加了两个left，结果使得width计算错误，页面样式错乱；
-引入组件u-swiper-action内部做了修改和调整
-
-## 3.u-avatar组件
-修改u-avatar组件的图片error地址：
-
-申明：[项目启动可能报错]文件缺失
-App.vue
-pages/personal-center/home.vue
-libs/constant.js
-libs/loadAMap.js
-libs/loadBMap.js
-pages/lottery-forecast/home.vue
-
-五个文件涉及个人隐私，请各位随便下载别的项目文件进行替换
-对于项目中应用的js可以进行注释，把逻辑暂时屏蔽进行预览
-给您带来的不便敬请谅解！🌹

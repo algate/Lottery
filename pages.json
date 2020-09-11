@@ -1,0 +1,197 @@
+{
+	"easycom": { // uView支持npm和下载的方式安装,在配置easycom稍有不同，为了不造成混淆，这里将两种 方式分开说明: @为zip包安装Hbuilder可启动 !@为cli命令安装 "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/lottery-canvas/home",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "Canvas"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-vectorJs",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "vectorJs🌻",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-tangram",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "tangram🍯",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-countdown",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "countdown🐝",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-click-effect",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "click-effect😷",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-touchmove-snow",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "touchmove-snow❄",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-particle",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "particle🍍",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-favorite",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "favorite🐌",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-grids",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "grids😷",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-canvas/canvas-touchmove-bubble",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "touchmove-bubble🏊",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/lottery-information/home",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "Lottery展示"
+			}
+		},
+		{
+			"path": "pages/lottery-forecast/home",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "Lottery预测"
+			}
+		},
+		{
+			"path": "pages/personal-center/home",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "关于"
+			}
+		},
+		{
+			"path": "pages/personal-center/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的default",
+				"navigationBarBackgroundColor": "#00AB98",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/personal-center/about",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "lottery-info"
+			}
+		},
+		{
+			"path": "pages/personal-center/user-weather",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "天气"
+			}
+		},
+		{
+			"path": "pages/personal-center/user-amap",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "地址"
+			}
+		},
+		{
+			"path": "pages/personal-center/log",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "日志"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "lottery🏀⚽🏐=>🏓",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#2dabff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/lottery-canvas/home",
+			"iconPath": "static/images/tabBar/canvas-default.png",
+			"selectedIconPath": "static/images/tabBar/canvas.png",
+			"text": "Canvas"
+		}, {
+			"pagePath": "pages/lottery-information/home",
+			"iconPath": "static/images/tabBar/basic-default.png",
+			"selectedIconPath": "static/images/tabBar/basic.png",
+			"text": "基础"
+		}, {
+			"pagePath": "pages/lottery-forecast/home",
+			"iconPath": "static/images/tabBar/function-default.png",
+			"selectedIconPath": "static/images/tabBar/function.png",
+			"text": "功能"
+		}, {
+			"pagePath": "pages/personal-center/home",
+			"iconPath": "static/images/tabBar/hammer-default.png",
+			"selectedIconPath": "static/images/tabBar/hammer.png",
+			"text": "我的"
+		}]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "lottery", //模式名称
+				"path": "pages/lottery-canvas/home", //启动页面，必选
+				"query": "name=lottery&time=20200825" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
