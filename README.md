@@ -123,9 +123,9 @@ Vue.mixin(wxShareTimeline)
 申明：[项目启动可能报错]文件缺失
 App.vue
 pages/personal-center/home.vue
-libs/constant.js
-libs/loadAMap.js
-libs/loadBMap.js
+common/libs/constant.js
+common/libs/loadAMap.js
+common/libs/loadBMap.js
 pages/lottery-forecast/home.vue
 
 五个文件涉及个人隐私，请各位随便下载别的项目文件进行替换
