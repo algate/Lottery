@@ -1,11 +1,10 @@
-<p align="center">
-    <img alt="logo" src="static/images/logo.png" width="120" height="120" style="margin-bottom: 10px;">
-</p>
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
 <h3 align="center">多平台快速开发的UI框架</h3>
 
 
 ## 说明
+
+本项目是基于uView的UI框架开发的项目，并在此基础上做了部分修改，要引用请看最后相关说明，如果使用原框架请移步管网或者uniapp插件市场进行下载和使用
 
 uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
@@ -85,20 +84,7 @@ Vue.use(uView);
 - [升级指南](https://uviewui.com/components/changelog.html)
 - [关于我们](https://uviewui.com/cooperation/about.html)
 
-## 预览
 
-您可以通过**微信**扫码，查看最佳的演示效果。
-<br>
-<br>
-<img src="https://uviewui.com/common/weixin_mini_qrcode.png" width="220" height="220" >
-
-<!-- ## 捐赠uView的研发
-
-uView文档和源码全部开源免费，如果您认为uView帮到了您的开发工作，您可以捐赠uView的研发工作，捐赠无门槛，哪怕是一杯可乐也好(相信这比打赏主播更有意义)。
-
-<img src="https://uviewui.com/common/wechat.png" width="220" >
-<img style="margin-left: 100px;" src="https://uviewui.com/common/alipay.png" width="220" >
- -->
 ## 版权信息
 uView遵循[MIT](https://en.wikipedia.org/wiki/MIT_License)开源协议，意味着您无需支付任何费用，也无需授权，即可将uView应用到您的产品中。
 
