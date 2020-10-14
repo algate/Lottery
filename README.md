@@ -1,7 +1,6 @@
 <h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
 <h3 align="center">多平台快速开发的UI框架</h3>
 
-
 ## 说明
 
 本项目是基于uView的UI框架开发的项目，并在此基础上做了部分修改，要引用请看最后相关说明，如果使用原框架请移步管网或者uniapp插件市场进行下载和使用
@@ -107,13 +106,12 @@ Vue.mixin(wxShareTimeline)
 修改u-avatar组件的图片error地址：
 
 申明：[项目启动可能报错]文件缺失
-App.vue
-pages/personal-center/home.vue
-common/libs/constant.js
-common/libs/loadAMap.js
-common/libs/loadBMap.js
-pages/lottery-forecast/home.vue
-
+`App.vue`,
+`pages/personal-center/home.vue`,
+`common/libs/constant.js`,
+`common/libs/loadAMap.js`,
+`common/libs/loadBMap.js`,
+`pages/lottery-forecast/home.vue`
 五个文件涉及个人隐私，请各位随便下载别的项目文件进行替换
 对于项目中应用的js可以进行注释，把逻辑暂时屏蔽进行预览
 给您带来的不便敬请谅解！🌹

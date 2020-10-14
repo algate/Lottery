@@ -77,7 +77,7 @@ export default {
 			canvas: null,
 			ctx: null,
 			particles: [],
-			top: null
+			stop: null
 		};
 	},
 	onLoad() {
