@@ -3,7 +3,7 @@
  - 后续将支持微信小程序，暂时未发布。
  - 本项目已放在uniapp项目模板插件市场，欢迎下载使用；
  - github文件不全可以去uniapp下载使用;
- - Web浏览器访问地址：![](https://algate.github.io/Lottery/)
+ - Web浏览器访问地址：![彩测](https://algate.github.io/Lottery/)
 
 ## 说明
 
@@ -112,7 +112,8 @@ Vue.mixin(wxShareTimeline)
 ## 3.u-avatar组件
 修改u-avatar组件的图片error地址：
 
-申明：[项目启动可能报错]文件缺失
+
+### 申明：[项目启动可能报错]文件缺失
 `App.vue`,
 `pages/personal-center/home.vue`,
 `common/libs/constant.js`,
