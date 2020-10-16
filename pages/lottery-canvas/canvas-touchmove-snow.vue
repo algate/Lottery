@@ -107,7 +107,7 @@ export default {
 			document.addEventListener('mousemove', this.onMouseMove);
 			this.animation();
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#move-effect')

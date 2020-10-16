@@ -63,12 +63,15 @@ const store = new Vuex.Store({
 		vuex_version: lifeData.vuex_version ? lifeData.vuex_version : '1.0.0',
 		// 自定义tabbar数据
 		vuex_tabbar: [
+            // #ifdef MP-WEIXIN || H5
 			{
 				"pagePath": "/pages/lottery-canvas/home",
 				"iconPath": "/static/images/tabBar/canvas-default.png",
 				"selectedIconPath": "/static/images/tabBar/canvas.png",
 				"text": "画板"
-			}, {
+			}, 
+            // #endif
+            {
 				"pagePath": "/pages/lottery-information/home",
 				"iconPath": "/static/images/tabBar/basic-default.svg",
 				"selectedIconPath": "/static/images/tabBar/basic.svg",

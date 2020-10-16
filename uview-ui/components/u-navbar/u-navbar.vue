@@ -118,7 +118,7 @@
 			// 标题的字体大小
 			titleSize: {
 				type: [String, Number],
-				default: 32
+				default: 24
 			},
 			isBack: {
 				type: [Boolean, String],

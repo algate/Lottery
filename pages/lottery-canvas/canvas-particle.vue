@@ -188,7 +188,7 @@ export default {
 			this.vars.cy = this.systemInfo.windowHeight / 2;
 			// this.vars.ctx.scale(dpr, dpr);
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#particle')

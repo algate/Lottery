@@ -147,7 +147,7 @@ export default {
 			// this.ctx.scale(dpr, dpr);
 			this.animate();
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#grid')

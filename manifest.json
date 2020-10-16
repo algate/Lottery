@@ -1,5 +1,5 @@
 {
-    "name" : "lottery-tabbar",
+    "name" : "彩测",
     "appid" : "__UNI__D035CA1",
     "description" : "",
     "versionName" : "1.5.0",
@@ -95,6 +95,14 @@
                         "^/api" : ""
                     }
                 }
+            }
+        }
+    },
+    "mp-qq" : {
+        "appid" : "1111029863",
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取定位地址的天气还有周边等信息"
             }
         }
     }

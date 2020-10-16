@@ -19,12 +19,12 @@
 			</view>
 		</view>
 		<view class="u-p-40">
-			<view class="u-m-t-20 u-font-40 u-type-success">尊敬的开发者，欢迎体验 - 锤子UI！</view>
+			<view class="u-m-t-20 u-font-40 u-type-success">尊敬的开发者，欢迎体验 - 彩测！</view>
 			<view class="u-m-t-20 u-font-30">
-				本项目是基于uView的UI搭建的lottery小程序, Html5效果点击链接
+				本项目是基于uView的UI搭建的【彩测】小程序, Html5效果点击链接
 				<!-- <text class="u-type-primary" @tap="copy('https://algate.github.io/HammerUI/')">锤子UI
 				</text> -->
-				<u-link href="https://algate.github.io/HammerUI/" :under-line="true">锤子UI</u-link>
+				<u-link href="https://algate.github.io/Lottery/" :under-line="true">Lottery</u-link>
 				复制到浏览器欣赏。
 			</view>
 			<view class="u-m-t-20 u-font-30">
@@ -38,8 +38,12 @@
 				邮箱：<u-link href="mailto:algate@foxmail.com" :under-line="true">algate@foxmail.com</u-link>
 			</view>
 			<view class="u-flex u-m-t-40 u-row-center">
+				<u-image src="/static/images/mine/lottery.png" class="u-flex-1 u-p-20" mode="widthFix"></u-image>
+				<view class="u-flex-1 u-font-30 u-p-20">QQ扫描QQ二维码，您的朋友也可以体验 - 彩测！</view>
+			</view>
+			<view class="u-flex u-m-t-40 u-row-center">
 				<u-image src="/static/images/mine/wx.png" class="u-flex-1 u-p-20" mode="widthFix"></u-image>
-				<view class="u-flex-1 u-font-30 u-p-20">扫描二维码，您的朋友也可以体验 - 锤子UI！</view>
+				<view class="u-flex-1 u-font-30 u-p-20">微信扫描微信二维码，您的朋友也可以体验 - 锤子UI！</view>
 			</view>
 		</view>
 	</view>

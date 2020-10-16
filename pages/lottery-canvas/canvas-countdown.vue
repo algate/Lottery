@@ -88,7 +88,7 @@ export default {
 			// this.stop = window ? window.requestAnimationFrame(this.animation) : setInterval(this.animation, 1000 / 60);
 			this.stop = setInterval(this.animation, 100);
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#countdown')

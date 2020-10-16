@@ -84,7 +84,7 @@ export default {
 				});
 			}
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#favorite')

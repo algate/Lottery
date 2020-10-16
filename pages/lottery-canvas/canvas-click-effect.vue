@@ -98,7 +98,7 @@ export default {
 			// this.ctx.scale(dpr, dpr);
 			// this.animation(this.ctx);
 			// #endif
-			// #ifdef MP-WEIXIN
+			// #ifdef MP-WEIXIN || MP-QQ
 			const query = uni.createSelectorQuery();
 			query
 				.select('#effect')
