@@ -3,7 +3,7 @@
  - 后续将支持微信小程序，暂时未发布。
  - 本项目已放在uniapp项目模板插件市场，欢迎下载使用；
  - github文件不全可以去uniapp下载使用;
- - Web浏览器访问地址：![彩测](https://algate.github.io/Lottery/)
+ - Web浏览器访问地址：[彩测](https://algate.github.io/Lottery/)
 
 ## 说明
 
