@@ -3,13 +3,13 @@
  - 后续将支持微信小程序，暂时未发布。
  - 本项目已放在uniapp项目模板插件市场，欢迎下载使用；
  - github文件不全可以去uniapp下载使用;
- - Web浏览器访问地址：[彩测](https://algate.github.io/Lottery/)
+ - Web浏览器访问地址：[彩测](https://algate.github.io/Lottery/#/)
 
 ## 说明
 
 本项目是基于uView的UI框架开发的项目，并在此基础上做了部分修改，要引用请看最后相关说明，如果使用原框架请移步管网或者uniapp插件市场进行下载和使用
 
-uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+[uView UI](https://uviewui.com/)，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
 [本项目在原来的组件基础上做了部分修改，如果想使用原组件请移步管网，点击上方链接]
 
