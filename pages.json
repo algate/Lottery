@@ -4,13 +4,6 @@
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/lottery-information/home",
-			"style": {
-				"navigationStyle":"custom",
-				"navigationBarTitleText": "Lottery展示"
-			}
-		},
-		{
 			"path": "pages/lottery-canvas/home",
 			"style": {
 				"navigationStyle": "custom",
@@ -100,6 +93,13 @@
 			}
 		},
 		{
+			"path": "pages/lottery-information/home",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "Lottery展示"
+			}
+		},
+		{
 			"path": "pages/lottery-forecast/home",
 			"style": {
 				"navigationStyle":"custom",
@@ -163,6 +163,11 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
+			"pagePath": "pages/lottery-canvas/home",
+			"iconPath": "static/images/tabBar/canvas-default.png",
+			"selectedIconPath": "static/images/tabBar/canvas.png",
+			"text": "Canvas"
+		}, {
 			"pagePath": "pages/lottery-information/home",
 			"iconPath": "static/images/tabBar/basic-default.png",
 			"selectedIconPath": "static/images/tabBar/basic.png",
