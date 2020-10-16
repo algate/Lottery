@@ -1,10 +1,9 @@
-本项目已经提交QQ小程序进行审核，起名 【彩测】(如果发布第一时间通知并更新)
-提供lottery信息展示、lottery多种预测功能等
-后续将支持微信小程序，暂时未发布。
-
-本项目已放在uniapp项目模板插件市场，欢迎下载使用；
-github文件不全可以去uniapp下载使用;
-Web浏览器访问地址：![](https://algate.github.io/Lottery/)
+ - 本项目已经提交QQ小程序进行审核，起名 【彩测】(如果发布第一时间通知并更新)
+ - 提供lottery信息展示、lottery多种预测功能等
+ - 后续将支持微信小程序，暂时未发布。
+ - 本项目已放在uniapp项目模板插件市场，欢迎下载使用；
+ - github文件不全可以去uniapp下载使用;
+ - Web浏览器访问地址：![](https://algate.github.io/Lottery/)
 
 ## 说明
 
