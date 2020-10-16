@@ -1,5 +1,10 @@
-<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
-<h3 align="center">多平台快速开发的UI框架</h3>
+本项目已经提交QQ小程序进行审核，起名 【彩测】(如果发布第一时间通知并更新)
+提供lottery信息展示、lottery多种预测功能等
+后续将支持微信小程序，暂时未发布。
+
+本项目已放在uniapp项目模板插件市场，欢迎下载使用；
+github文件不全可以去uniapp下载使用;
+Web浏览器访问地址：![](https://algate.github.io/Lottery/)
 
 ## 说明
 
@@ -9,6 +14,9 @@ uView UI，是[uni-app](https://uniapp.dcloud.io/)生态优秀的UI框架，全�
 
 [本项目在原来的组件基础上做了部分修改，如果想使用原组件请移步管网，点击上方链接]
 
+
+<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">uView</h3>
+<h3 align="center">多平台快速开发的UI框架</h3>
 ## 特性
 
 - 兼容安卓，iOS，微信小程序，H5，QQ小程序，百度小程序，支付宝小程序，头条小程序
