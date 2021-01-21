@@ -63,6 +63,12 @@ const store = new Vuex.Store({
 		vuex_version: lifeData.vuex_version ? lifeData.vuex_version : '1.0.0',
 		// 自定义tabbar数据
 		vuex_tabbar: [
+            {
+            	"pagePath": "/pages/lottery-info/home",
+            	"iconPath": "/static/images/tabBar/canvas-default.png",
+            	"selectedIconPath": "/static/images/tabBar/canvas.png",
+            	"text": "介绍"
+            },
             // #ifdef MP-WEIXIN || H5
 			{
 				"pagePath": "/pages/lottery-canvas/home",
@@ -76,12 +82,16 @@ const store = new Vuex.Store({
 				"iconPath": "/static/images/tabBar/basic-default.svg",
 				"selectedIconPath": "/static/images/tabBar/basic.svg",
 				"text": "开奖"
-			}, {
-				"pagePath": "/pages/lottery-forecast/home",
-				"iconPath": "/static/images/tabBar/function-default.svg",
-				"selectedIconPath": "/static/images/tabBar/function.svg",
-				"text": "预测"
-			}, {
+			}, 
+            // #ifdef MP-WEIXIN || H5
+            {
+            	"pagePath": "/pages/lottery-forecast/home",
+            	"iconPath": "/static/images/tabBar/function-default.svg",
+            	"selectedIconPath": "/static/images/tabBar/function.svg",
+            	"text": "预测"
+            },
+            // #endif
+            {
 				"pagePath": "/pages/personal-center/home",
 				"iconPath": "/static/images/tabBar/hammer-default.svg",
 				"selectedIconPath": "/static/images/tabBar/hammer.svg",

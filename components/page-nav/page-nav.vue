@@ -1,7 +1,7 @@
 <template>
 	<view class="nav-wrap">
 		<view class="nav-title">
-			<image class="logo" src="https://cdn.uviewui.com/uview/common/logo.png" mode="widthFix"></image>
+			<image class="logo" src="/static/images/logo.png" mode="widthFix"></image>
 			<view class="nav-info">
 				<view class="nav-title__text">
 					{{$t('common.title')}}
@@ -11,8 +11,9 @@
 				</view>
 			</view>
 		</view>
-		<view class="nav-desc">
-			{{desc}}
+        <view @tap="goDetail" class="nav-desc">
+			我叫梦奇·D·路飞，{{desc}}。
+            <u-icon name="arrow-right" color="#2dabff" size="28"></u-icon>
 		</view>
 		<view class="lang" @tap="switchLang">
 			<u-icon size="46" color="warning" :name="lang"></u-icon>
@@ -25,6 +26,7 @@
 		props: {
 			desc: String,
 			title: String,
+            url: String
 		},
 		computed: {
 			lang() {
@@ -34,15 +36,28 @@
 		methods: {
 			switchLang() {
 				this.$i18n.locale = this.$i18n.locale == 'en' ? 'zh' : 'en';
-				this.vuex_tabbar[0].text = this.$t('nav.canvas');
-				// this.$u.vuex(this.vuex_tabbar[0].text, this.$t('nav.canvas'));
-				this.vuex_tabbar[1].text = this.$t('nav.basic');
-				this.vuex_tabbar[2].text = this.$t('nav.function');
-				this.vuex_tabbar[3].text = this.$t('nav.mine');
+                // #ifdef MP-WEIXIN || H5
+                this.vuex_tabbar[0].text = this.$t('nav.info');
+                this.vuex_tabbar[1].text = this.$t('nav.canvas');
+                // this.$u.vuex(this.vuex_tabbar[0].text, this.$t('nav.canvas'));
+                this.vuex_tabbar[2].text = this.$t('nav.basic');
+                this.vuex_tabbar[3].text = this.$t('nav.function');
+                this.vuex_tabbar[4].text = this.$t('nav.mine');
+                // #endif
+                // #ifndef MP-QQ
+                this.vuex_tabbar[0].text = this.$t('nav.info');
+                this.vuex_tabbar[1].text = this.$t('nav.basic');
+                this.vuex_tabbar[2].text = this.$t('nav.mine');
+                // #endif
 				uni.setNavigationBarTitle({
 					title: this.$t(this.title)
 				});
-			}
+			},
+            goDetail(e) {
+                uni.navigateTo({
+                	url: '/pages/lottery-info/info-mine'
+                });
+            }
 		}
 	}
 </script>
@@ -82,9 +97,9 @@
 	
 	.nav-title__text {
 		display: flex;
-		color: $u-main-color;
-		font-size: 50rpx;
-		font-weight: bold;
+		color: $u-type-primary-dark;
+		font-size: 40rpx;
+		font-weight: 400;
 	}
 	
 	.logo {
@@ -101,6 +116,7 @@
 	.nav-desc {
 		margin-top: 20rpx;
 		font-size: 28rpx;
-		color: $u-content-color;
+		// color: $u-content-color;
+        color: $u-type-primary-dark;
 	}
 </style>

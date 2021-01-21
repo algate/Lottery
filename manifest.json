@@ -104,6 +104,11 @@
             "scope.userLocation" : {
                 "desc" : "获取定位地址的天气还有周边等信息"
             }
+        },
+        "setting" : {
+            "es6" : false,
+            "postcss" : false,
+            "urlCheck" : false
         }
     }
 }
