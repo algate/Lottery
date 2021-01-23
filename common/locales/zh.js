@@ -13,6 +13,6 @@ export default {
 	},
 	common: {
 		intro: '路遥遥之修远兮，吾将上下而求索！',
-		title: '我叫路飞',
+		title: '我叫白纸',
 	},
 }

@@ -30,7 +30,7 @@
 		</view>
         <view>
             <view class="u-m-t-40 u-text-center">
-                <u-image width="100%" :src="src_official" mode="widthFix"></u-image>
+                <!-- <u-image width="100%" :src="src_official" mode="widthFix"></u-image> -->
                 <view class="u-flex u-m-t-40 u-row-center">👇扫码 公众号 - <text @tap="clip" class="official">[我叫白纸]</text> ☜搜索点我</view>
             </view>            
             <view class="u-flex u-m-t-40 u-row-center">
@@ -42,7 +42,7 @@
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
             	<u-image src="/static/images/mine/lottery.png" class="u-flex-1 u-p-20" mode="widthFix"></u-image>
-            	<view class="u-flex-1 u-font-30 u-p-20">QQ扫描QQ二维码，您的朋友也可以体验 - 彩测！</view>
+            	<view class="u-flex-1 u-font-30 u-p-20">QQ扫描QQ二维码，您的朋友也可以体验 - 我叫白纸！</view>
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
             	<u-image src="/static/images/mine/wx.png" class="u-flex-1 u-p-20" mode="widthFix"></u-image>
@@ -53,7 +53,7 @@
                 <view class="u-flex-1 u-font-30 u-p-20">
                     <u-link href="https://algate.github.io/HammerUI/" :under-line="true">
                         🔨UI-H5
-                    </u-link><br/>👆 点击复制到浏览器
+                    </u-link>
                 </view>
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
@@ -61,14 +61,13 @@
                 <view class="u-flex-1 u-font-30 u-p-20">
                     <u-link href="https://algate.github.io/Lottery/" :under-line="true">
                         彩测-H5
-                    </u-link><br/>👆 点击复制到浏览器
+                    </u-link>
                 </view>
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
                 <u-image src="/static/images/logo.png" class="u-flex-1 u-p-20" mode="widthFix"></u-image>
             	<view class="u-flex-1 u-font-30 u-p-20">
                     <u-link href="https://algate.github.io" :under-line="true">博客 - 笔墨纸砚</u-link>
-                    <br/>👆 点击复制到浏览器
                 </view>
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
@@ -76,7 +75,7 @@
             	<view class="u-flex-1 u-font-30 u-p-20">
                     <u-link href="https://algate.github.io" :under-line="true">
                         博客 - 白纸驿站 v2.0
-                    </u-link><br/>👆 点击复制到浏览器
+                    </u-link>
                 </view>
             </view>
             <view class="u-flex u-m-t-40 u-row-center">
@@ -84,7 +83,7 @@
                 <view class="u-flex-1 u-font-30 u-p-20">
                     <u-link href="https://algate.github.io/hexo.pure/" :under-line="true">
                         博客 - 白纸驿站 v1.0
-                    </u-link><br/>👆 点击复制到浏览器
+                    </u-link>
                 </view>
             </view>
         </view>
@@ -104,7 +103,7 @@
                 isBack: true,
                 backText: '返回',
                 backIconName: 'nav-back',
-                title: '我叫路飞',
+                title: '我叫白纸',
                 background: {
                 	// 'background': 'url(http://shp.qpic.cn/ishow/2735022611/1551150494_-695593207_2194_sProdImgNo_3.jpg/0) no-repeat',  // 设置背景图片 还可以加上其他属性，比如no-repeat，center
                 	// 'background-color': '' 	// 设置纯色背景

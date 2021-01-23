@@ -7,7 +7,7 @@
             "path": "pages/lottery-info/home",
             "style": {
                 "navigationStyle": "custom",
-                "navigationBarTitleText": "Lottery介绍"
+                "navigationBarTitleText": "白纸介绍"
             }
         },
         {
@@ -21,14 +21,14 @@
 			"path": "pages/lottery-information/home",
 			"style": {
 				"navigationStyle":"custom",
-				"navigationBarTitleText": "Lottery展示"
+				"navigationBarTitleText": "往期信息"
 			}
 		},
 		{
 			"path": "pages/lottery-information/dlt-item",
 			"style": {
 				"navigationStyle": "custom",
-				"navigationBarTitleText": "中没中"
+				"navigationBarTitleText": "信息展示"
 			}
 		},
         {
@@ -173,7 +173,7 @@
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "lottery🏀⚽🏐=>🏓",
+		"navigationBarTitleText": "🏀⚽🏐=>🏓",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},

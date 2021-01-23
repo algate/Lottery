@@ -19,9 +19,9 @@
 			</view>
 		</view>
 		<view class="u-p-40">
-			<view class="u-m-t-20 u-font-40 u-type-success">尊敬的开发者，欢迎体验 - 彩测！</view>
+			<view class="u-m-t-20 u-font-40 u-type-success">尊敬的开发者，欢迎体验 - 我叫白纸！</view>
 			<view class="u-m-t-20 u-font-30">
-				本项目是基于uView的UI搭建的【彩测】小程序, Html5效果点击链接
+				本项目是基于uView的UI搭建的【我叫白纸】小程序, Html5效果点击链接
 				<!-- <text class="u-type-primary" @tap="copy('https://algate.github.io/HammerUI/')">锤子UI
 				</text> -->
 				<u-link href="https://algate.github.io/Lottery/" :under-line="true">Lottery</u-link>
