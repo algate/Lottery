@@ -79,6 +79,7 @@
     },
     "h5" : {
         "template" : "template.h5.html",
+        "domain" : "https://algate.github.io/",
         "router" : {
             "mode" : "hash",
             "base" : "/Lottery/"
